@@ -5,7 +5,7 @@ experiment perfomance boot ubuntu , group , gshadow, passwd , lightdm , gdm , no
 
 1) Сделайте бекап в какую либо папку на случай сбоя можно будет восстановить из оригинального бекапа командой: 
 
-cd ~ && sudo XZ_OPT=-9 tar -Jcvf backup-etc.tar.xz /etc/group  /etc/gshadow /etc/passwd /etc/shadow /etc/subgid /etc/subuid
+cd ~ && sudo XZ_OPT=-9 tar -Jcvf backup-etc.tar.xz /etc/group  /etc/gshadow /etc/passwd /etc/shadow /etc/subgid /etc/subuid /etc/group-  /etc/gshadow- /etc/passwd- /etc/shadow- /etc/subgid- /etc/subuid-
 
 
 2) Не извлекая отредактируйте все фаилы прямо в архиве с помощью блокнота  изменив в каждом строку griggorii на своё имя оно же играет роль на домашнию директорию
