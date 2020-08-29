@@ -1,5 +1,7 @@
 # group_gshadow_passwd_shadow_experiment_perfomance_boot_ubuntu_20.04
-experiment perfomance boot ubuntu , group , gshadow, passwd
+experiment perfomance boot ubuntu , group , gshadow, passwd , lightdm , gdm , not sddm
+
+Не рекомендуется делать этот эксперимент новичкам и тем кто не разбирается в вопросе во избежании проблем с системой и в последствии головных болей!
 
 1) Сделайте бекап в какую либо папку на случай сбоя можно будет восстановить из оригинального бекапа командой: 
 
@@ -30,7 +32,8 @@ cd /home/<my_login>
 
 tar xvpf backup-etc.tar.xz -C /
 
-____________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________
+It is not recommended to do this experiment for beginners and those who do not understand the issue in order to avoid problems with the system and, as a result, headaches!
 
 
 1) Make a backup to any folder in case of a failure, you can restore from the original backup with the command:
