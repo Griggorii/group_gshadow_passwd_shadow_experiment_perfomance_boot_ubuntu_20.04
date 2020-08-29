@@ -12,7 +12,7 @@ cd ~ && sudo XZ_OPT=-9 tar -Jcvf backup-etc.tar.xz /etc/group  /etc/gshadow /etc
 
 tar xvpf etc.tar.xz -C / && passwd <my_login>
 
-- - - - - - - - - - - - - - - - - - -  - - -  - - - - - 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Проблема черный экран загрузитесь с лайв сиди и восстановите копию
 
@@ -43,7 +43,7 @@ Then, using the terminal, log into the super user, be sure to repeat the passwor
 
 tar xvpf etc.tar.xz -C / && passwd <my_login>
 
-- - - - - - - - - - - - - - - - - - -  - - -  - - - - - 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 Black screen problem boot from live sit and restore a copy
